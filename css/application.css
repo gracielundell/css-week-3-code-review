@@ -47,34 +47,58 @@ nav {
   width: 25%;
   height: 298px;
   background: aqua;
-  margin-right: 5px; }
+  margin-right: 5px;
+  background-image: url("../img/paintedHills/painted1.jpg");
+  background-image: url("../img/paintedHills/painted1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
 
 .col-md-8 {
   width: 74%;
   height: 298px;
-  background: blue;
-  float: right; }
+  float: right;
+  background-image: url("../img/paintedHills/painted3.jpg");
+  background-image: url("../img/paintedHills/painted3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .wide {
   width: 100%;
   height: 200px;
   padding: 0px;
-  background: pink; }
+  background-image: url("../img/california/cali5.jpg");
+  background-image: url("../img/california/cali5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white; }
 
 .three {
   width: 100%;
-  height: 250px;
+  height: 320px;
   padding: 0px; }
   .three .col-md-4 {
     width: 32.6%;
-    height: 248px;
-    background: maroon;
+    height: 318px;
+    background-image: url("../img/idaho/idaho7.jpg");
+    background-image: url("../img/idaho/idaho7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block; }
   .three .last {
     margin-right: 0px;
-    float: right; }
+    float: right;
+    background-image: url("../img/idaho/idaho5.jpg");
+    background-image: url("../img/idaho/idaho5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
   .three .center {
-    width: 33.46%; }
+    width: 33.46%;
+    background-image: url("../img/idaho/idaho9.jpg");
+    background-image: url("../img/idaho/idaho9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .four {
   width: 100%;
@@ -84,12 +108,22 @@ nav {
 .col-md-6 {
   width: 49.5%;
   height: 198px;
-  background: tomato; }
+  background-image: url("../img/utah/utah1.png");
+  background-image: url("../img/utah/utah1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: white; }
 
 .left {
   margin-right: 2px; }
 
 .right {
-  float: right; }
+  float: right;
+  background-image: url("../img/utah/utah3.png");
+  background-image: url("../img/utah/utah3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 /*# sourceMappingURL=application.css.map */

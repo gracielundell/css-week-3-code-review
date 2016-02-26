@@ -1,15 +1,23 @@
 .three {
-  @include rowStyle(100%, 250px, 0px);
+  @include rowStyle(100%, 320px, 0px);
   .col-md-4 {
-    @include columnStyle(32.6%, 248px);
-    background: maroon;
+    @include columnStyle(32.6%, 318px);
+    @include background-image(url("#{$path-img}/idaho/idaho7.jpg"));
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
   }
   .last {
     margin-right: 0px;
     float: right;
+    @include background-image(url("#{$path-img}/idaho/idaho5.jpg"));
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .center {
     width: 33.46%;
+    @include background-image(url("#{$path-img}/idaho/idaho9.jpg"));
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

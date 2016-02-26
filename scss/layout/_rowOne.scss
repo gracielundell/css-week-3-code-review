@@ -6,10 +6,16 @@
   @include columnStyle(25%, 298px);
   background: aqua;
   margin-right: 5px;
+  @include background-image(url("#{$path-img}/paintedHills/painted1.jpg"));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
 }
 
 .col-md-8 {
   @include columnStyle(74%, 298px);
-  background: blue;
   float: right;
+  @include background-image(url("#{$path-img}/paintedHills/painted3.jpg"));
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -4,13 +4,22 @@
 
 .col-md-6 {
   @include columnStyle(49.5%, 198px);
-  background: tomato;
+  @include background-image(url("#{$path-img}/utah/utah1.png"));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: $white;
 }
 
 .left {
   margin-right: 2px;
+
 }
 
 .right {
   float: right;
+  @include background-image(url("#{$path-img}/utah/utah3.png"));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

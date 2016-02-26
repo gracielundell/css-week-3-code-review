@@ -1,4 +1,8 @@
 .wide {
   @include rowStyle(100%, 200px, 0px);
-  background: pink;
+  @include background-image(url("#{$path-img}/california/cali5.jpg"));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: $white;
 }
