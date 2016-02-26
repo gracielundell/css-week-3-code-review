@@ -3,31 +3,6 @@ body {
   @include padding(null 50px 50px 50px);
 }
 
-.wrapper {
-  @include margin(auto);
-  max-width: 960px;
-  width: 95%;
-  background: lightblue;
-  border: 1px solid orange;
-}
-
-.one {
-  background: olive;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 200px;
-}
-
-.two {
-  background: pink;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 200px;
-}
-
-.three {
-  background: maroon;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 200px;
+.container {
+  @extend %container;
 }

@@ -9,18 +9,32 @@ nav a {
   nav a:hover {
     text-transform: uppercase; }
 
+.container {
+  margin: auto;
+  max-width: 960px;
+  width: 95%;
+  background: lightblue;
+  border: 1px solid orange; }
+
 body {
   margin: 0;
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px; }
 
-.wrapper {
-  margin: auto;
+nav {
+  padding: 20px 50px;
+  margin: 20px auto;
   max-width: 960px;
   width: 95%;
-  background: lightblue;
-  border: 1px solid orange; }
+  background: red;
+  overflow: auto;
+  text-align: center; }
+  nav a {
+    margin-bottom: 5px;
+    padding: 10px; }
+  nav span {
+    font-size: 40px; }
 
 .one {
   background: olive;
@@ -40,18 +54,10 @@ body {
   margin: 5px;
   height: 200px; }
 
-nav {
-  padding: 20px 50px;
-  margin: 20px auto;
-  max-width: 960px;
-  width: 95%;
-  background: red;
-  overflow: auto;
-  text-align: center; }
-  nav a {
-    margin-bottom: 5px;
-    padding: 10px; }
-  nav span {
-    font-size: 40px; }
+.four {
+  background: grey;
+  border: 1px solid lime;
+  margin: 5px;
+  height: 200px; }
 
 /*# sourceMappingURL=application.css.map */
