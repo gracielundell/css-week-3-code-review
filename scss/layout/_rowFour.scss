@@ -1,25 +1,27 @@
-.four {
+.bottom {
   @include rowStyle(100%, 200px, 0px);
+  @extend %imgHover;
 }
 
 .col-md-6 {
   @include columnStyle(49.5%, 198px);
-  @include background-image(url("#{$path-img}/utah/utah1.png"));
+  @include background-image(url("#{$path-img}/utah/utah3.jpg"));
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   color: $white;
 }
 
 .left {
   margin-right: 2px;
-
+  padding: 0;
+  @extend %links;
 }
 
 .right {
   float: right;
-  @include background-image(url("#{$path-img}/utah/utah3.png"));
+  @include background-image(url("#{$path-img}/utah/utah1.png"));
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }

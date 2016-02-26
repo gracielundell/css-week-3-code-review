@@ -3,14 +3,15 @@ nav {
   @include margin(20px auto 20px auto);
   max-width: 960px;
   width: 95%;
-  background: red;
+  background: $navbar;
+  color: $textColor;
   overflow: auto;
   text-align: center;
   a {
     @extend %links;
     margin-bottom: 5px;
-
     padding: 10px;
+    color: $links;
   }
   span {
     font-size: 40px;

@@ -4,22 +4,36 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-nav a {
+nav a, .col-md-4, .wide, .three .col-md-4, .left {
   text-decoration: none; }
-  nav a:hover {
-    text-transform: uppercase; }
+  nav a:hover, .col-md-4:hover, .wide:hover, .left:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #87BBA2;
+    font-weight: bold; }
 
 .container {
   margin: auto;
   max-width: 960px;
-  width: 95%;
-  border: 1px solid orange; }
+  width: 95%; }
+
+.top, .wide, .three .col-md-4, .bottom {
+  -webkit-transition: opacity 0.2s ease-in 0s, width 2s ease-in 2s;
+  -moz-transition: opacity 0.2s ease-in 0s, width 2s ease-in 2s;
+  transition: opacity 0.2s ease-in 0s, width 2s ease-in 2s; }
+  .top:hover, .wide:hover, .three .col-md-4:hover, .bottom:hover {
+    cursor: pointer;
+    opacity: .8; }
 
 body {
+  font-family: serif;
   margin: 0;
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px; }
+  body h1 {
+    color: #eee;
+    padding-left: 3px; }
 
 .row {
   margin-bottom: 5px; }
@@ -29,12 +43,14 @@ nav {
   margin: 20px auto;
   max-width: 960px;
   width: 95%;
-  background: red;
+  background: #3B6064;
+  color: #eee;
   overflow: auto;
   text-align: center; }
   nav a {
     margin-bottom: 5px;
-    padding: 10px; }
+    padding: 10px;
+    color: #a3c5c8; }
   nav span {
     font-size: 40px; }
 
@@ -46,7 +62,6 @@ nav {
 .col-md-4 {
   width: 25%;
   height: 298px;
-  background: aqua;
   margin-right: 5px;
   background-image: url("../img/paintedHills/painted1.jpg");
   background-image: url("../img/paintedHills/painted1.jpg");
@@ -81,8 +96,8 @@ nav {
   .three .col-md-4 {
     width: 32.6%;
     height: 318px;
-    background-image: url("../img/idaho/idaho7.jpg");
-    background-image: url("../img/idaho/idaho7.jpg");
+    background-image: url("../img/idaho/idaho4.jpg");
+    background-image: url("../img/idaho/idaho4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: block; }
@@ -100,7 +115,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover; }
 
-.four {
+.bottom {
   width: 100%;
   height: 200px;
   padding: 0px; }
@@ -108,22 +123,23 @@ nav {
 .col-md-6 {
   width: 49.5%;
   height: 198px;
-  background-image: url("../img/utah/utah1.png");
-  background-image: url("../img/utah/utah1.png");
+  background-image: url("../img/utah/utah3.jpg");
+  background-image: url("../img/utah/utah3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   color: white; }
 
 .left {
-  margin-right: 2px; }
+  margin-right: 2px;
+  padding: 0; }
 
 .right {
   float: right;
-  background-image: url("../img/utah/utah3.png");
-  background-image: url("../img/utah/utah3.png");
+  background-image: url("../img/utah/utah1.png");
+  background-image: url("../img/utah/utah1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: bottom; }
 
 /*# sourceMappingURL=application.css.map */

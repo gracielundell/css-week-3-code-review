@@ -2,10 +2,12 @@
   @include rowStyle(100%, 320px, 0px);
   .col-md-4 {
     @include columnStyle(32.6%, 318px);
-    @include background-image(url("#{$path-img}/idaho/idaho7.jpg"));
+    @include background-image(url("#{$path-img}/idaho/idaho4.jpg"));
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    @extend %imgHover;
+    @extend %links;
   }
   .last {
     margin-right: 0px;

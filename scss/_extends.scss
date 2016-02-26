@@ -2,6 +2,9 @@
   text-decoration: none;
   &:hover {
     text-transform: uppercase;
+    text-decoration: none;
+    color: $navHover;
+    font-weight: bold;
   }
 }
 
@@ -9,5 +12,12 @@
     @include margin(auto);
     max-width: 960px;
     width: 95%;
-    border: 1px solid orange;
+}
+
+%imgHover {
+  @include transition(opacity 0.2s ease-in 0s, width 2.0s ease-in 2s);
+  &:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
 }

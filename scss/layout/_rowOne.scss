@@ -1,15 +1,16 @@
 .top {
   @include rowStyle(100%, 300px, 0px);
+  @extend %imgHover;
 }
 
 .col-md-4 {
   @include columnStyle(25%, 298px);
-  background: aqua;
   margin-right: 5px;
   @include background-image(url("#{$path-img}/paintedHills/painted1.jpg"));
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
+  @extend %links;
 }
 
 .col-md-8 {
