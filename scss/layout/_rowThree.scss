@@ -1,19 +1,15 @@
 .three {
-  background: maroon;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 250px;
-  padding: 0px;
+  @include rowStyle(100%, 250px, 0px);
   .col-md-4 {
-    margin: 0 3px;
-    width: 32.8%;
-    height: 248px;
-    background: white;
+    @include columnStyle(32.6%, 248px);
+    background: maroon;
+    display: block;
   }
-  .left {
-    margin-left: 0px;
-  }
-  .right {
+  .last {
     margin-right: 0px;
+    float: right;
+  }
+  .center {
+    width: 33.46%;
   }
 }

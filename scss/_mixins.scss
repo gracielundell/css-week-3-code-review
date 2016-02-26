@@ -1,0 +1,10 @@
+@mixin rowStyle($width, $height, $padding) {
+  width: $width;
+  height: $height;
+  padding: $padding;
+}
+
+@mixin columnStyle($width, $height) {
+  width: $width;
+  height: $height;
+}

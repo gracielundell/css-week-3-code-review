@@ -6,3 +6,7 @@ body {
 .container {
   @extend %container;
 }
+
+.row {
+  margin-bottom: 5px;
+}

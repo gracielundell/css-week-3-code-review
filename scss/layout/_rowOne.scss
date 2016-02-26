@@ -1,21 +1,15 @@
-.one {
-  background: olive;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 300px;
-  padding: 0px;
+.top {
+  @include rowStyle(100%, 300px, 0px);
 }
 
 .col-md-4 {
-  width: 25%;
-  height: 298px;
-  background: white;
+  @include columnStyle(25%, 298px);
+  background: aqua;
   margin-right: 5px;
 }
 
 .col-md-8 {
-  width: 74%;
-  height: 298px;
+  @include columnStyle(74%, 298px);
   background: blue;
   float: right;
 }

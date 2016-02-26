@@ -1,6 +1,4 @@
-.two {
+.wide {
+  @include rowStyle(100%, 200px, 0px);
   background: pink;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 200px;
 }

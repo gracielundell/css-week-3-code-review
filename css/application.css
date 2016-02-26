@@ -13,7 +13,6 @@ nav a {
   margin: auto;
   max-width: 960px;
   width: 95%;
-  background: lightblue;
   border: 1px solid orange; }
 
 body {
@@ -21,6 +20,9 @@ body {
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px; }
+
+.row {
+  margin-bottom: 5px; }
 
 nav {
   padding: 20px 50px;
@@ -36,17 +38,15 @@ nav {
   nav span {
     font-size: 40px; }
 
-.one {
-  background: olive;
-  border: 1px solid lime;
-  margin: 5px;
+.top {
+  width: 100%;
   height: 300px;
   padding: 0px; }
 
 .col-md-4 {
   width: 25%;
   height: 298px;
-  background: white;
+  background: aqua;
   margin-right: 5px; }
 
 .col-md-8 {
@@ -55,45 +55,41 @@ nav {
   background: blue;
   float: right; }
 
-.two {
-  background: pink;
-  border: 1px solid lime;
-  margin: 5px;
-  height: 200px; }
+.wide {
+  width: 100%;
+  height: 200px;
+  padding: 0px;
+  background: pink; }
 
 .three {
-  background: maroon;
-  border: 1px solid lime;
-  margin: 5px;
+  width: 100%;
   height: 250px;
   padding: 0px; }
   .three .col-md-4 {
-    margin: 0 3px;
-    width: 32.8%;
+    width: 32.6%;
     height: 248px;
-    background: white; }
-  .three .left {
-    margin-left: 0px; }
-  .three .right {
-    margin-right: 0px; }
+    background: maroon;
+    display: block; }
+  .three .last {
+    margin-right: 0px;
+    float: right; }
+  .three .center {
+    width: 33.46%; }
 
 .four {
-  background: grey;
-  border: 1px solid lime;
-  margin: 5px;
+  width: 100%;
   height: 200px;
   padding: 0px; }
-  .four .col-md-6 {
-    height: 198px;
-    background: tomato;
-    width: 49.5%; }
 
-.right {
-  float: right;
-  margin-right: 0px; }
+.col-md-6 {
+  width: 49.5%;
+  height: 198px;
+  background: tomato; }
 
 .left {
-  float: left;
-  margin-left: 0px; }
+  margin-right: 2px; }
+
+.right {
+  float: right; }
 
 /*# sourceMappingURL=application.css.map */
