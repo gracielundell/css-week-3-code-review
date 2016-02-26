@@ -3,4 +3,18 @@
   border: 1px solid lime;
   margin: 5px;
   height: 200px;
+  padding: 0px;
+  .col-md-4 {
+    margin: 0 3px;
+    width: 278px;
+    height: 198px;
+    background: white;
+  }
+  .left {
+    margin-left: 0px;
+  }
+  .right {
+    margin: 0px;
+    float: right;
+  }
 }
