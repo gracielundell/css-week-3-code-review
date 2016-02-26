@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+nav a {
+  text-decoration: none; }
+  nav a:hover {
+    text-transform: uppercase; }
+
+body {
+  margin: 0;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px; }
+
+.wrapper {
+  margin: auto;
+  max-width: 960px;
+  width: 95%;
+  background: lightblue;
+  border: 1px solid orange; }
+
+.one {
+  background: olive;
+  border: 1px solid lime;
+  margin: 5px;
+  height: 200px; }
+
+.two {
+  background: pink;
+  border: 1px solid lime;
+  margin: 5px;
+  height: 200px; }
+
+.three {
+  background: maroon;
+  border: 1px solid lime;
+  margin: 5px;
+  height: 200px; }
+
+nav {
+  padding: 20px 50px;
+  margin: 20px auto;
+  max-width: 960px;
+  width: 95%;
+  background: red;
+  overflow: auto;
+  text-align: center; }
+  nav a {
+    margin-bottom: 5px;
+    padding: 10px; }
+  nav span {
+    font-size: 40px; }
+
+/*# sourceMappingURL=application.css.map */
