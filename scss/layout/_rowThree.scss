@@ -2,19 +2,18 @@
   background: maroon;
   border: 1px solid lime;
   margin: 5px;
-  height: 200px;
+  height: 250px;
   padding: 0px;
   .col-md-4 {
     margin: 0 3px;
-    width: 278px;
-    height: 198px;
+    width: 32.8%;
+    height: 248px;
     background: white;
   }
   .left {
     margin-left: 0px;
   }
   .right {
-    margin: 0px;
-    float: right;
+    margin-right: 0px;
   }
 }

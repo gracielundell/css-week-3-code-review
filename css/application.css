@@ -65,23 +65,35 @@ nav {
   background: maroon;
   border: 1px solid lime;
   margin: 5px;
-  height: 200px;
+  height: 250px;
   padding: 0px; }
   .three .col-md-4 {
     margin: 0 3px;
-    width: 278px;
-    height: 198px;
+    width: 32.8%;
+    height: 248px;
     background: white; }
   .three .left {
     margin-left: 0px; }
   .three .right {
-    margin: 0px;
-    float: right; }
+    margin-right: 0px; }
 
 .four {
   background: grey;
   border: 1px solid lime;
   margin: 5px;
-  height: 200px; }
+  height: 200px;
+  padding: 0px; }
+  .four .col-md-6 {
+    height: 198px;
+    background: tomato;
+    width: 49.5%; }
+
+.right {
+  float: right;
+  margin-right: 0px; }
+
+.left {
+  float: left;
+  margin-left: 0px; }
 
 /*# sourceMappingURL=application.css.map */

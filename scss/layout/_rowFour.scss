@@ -3,4 +3,19 @@
   border: 1px solid lime;
   margin: 5px;
   height: 200px;
+  padding: 0px;
+  .col-md-6 {
+    height: 198px;
+    background: tomato;
+    width: 49.5%;
+  }
+}
+.right {
+  float: right;
+  margin-right: 0px;
+}
+
+.left {
+  float: left;
+  margin-left: 0px;
 }
