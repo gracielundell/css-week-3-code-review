@@ -28,9 +28,6 @@ body {
   body h1 {
     color: #eee;
     padding-left: 3px; }
-  @media only screen and (min-width: 320px) {
-    body {
-      padding: 10px; } }
 
 .row {
   margin-bottom: 5px; }
@@ -50,16 +47,16 @@ nav {
     color: #a3c5c8; }
   nav span {
     font-size: 40px; }
-  @media only screen and (min-width: 320px) {
-    nav {
-      margin: 10px 10px 0; }
-      nav span {
-        font-size: 20px; } }
 
 .top {
   width: 100%;
   height: 300px;
   padding: 0px; }
+  @media only screen and (max-width: 992px) {
+    .top {
+      width: 74%;
+      height: 100px;
+      height: 200px; } }
 
 .col-md-4 {
   width: 25%;
@@ -70,9 +67,9 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   color: white; }
-  @media only screen and (min-width: 320px) {
+  @media only screen and (max-width: 992px) {
     .col-md-4 {
-      width: 100%;
+      width: 25%;
       height: 100px; }
       .col-md-4 h1 {
         margin-top: 6px; } }
@@ -85,9 +82,10 @@ nav {
   background-image: url("../img/paintedHills/painted3.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
-  @media only screen and (min-width: 320px) {
+  @media only screen and (max-width: 992px) {
     .col-md-8 {
-      display: none; } }
+      width: 74%;
+      height: 100px; } }
 
 .wide {
   width: 100%;
@@ -99,10 +97,6 @@ nav {
   background-size: cover;
   background-position: center;
   color: white; }
-  @media only screen and (min-width: 320px) {
-    .wide {
-      width: 100%;
-      height: 100px; } }
 
 .three {
   width: 100%;
@@ -120,19 +114,12 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     display: block; }
-    @media only screen and (min-width: 320px) {
-      .three .col-md-4 {
-        width: 100%;
-        height: 100px; } }
   .three .center {
     width: 33.46%;
     background-image: url("../img/idaho/idaho9.jpg");
     background-image: url("../img/idaho/idaho9.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
-    @media only screen and (min-width: 320px) {
-      .three .center {
-        display: none; } }
   .three .last {
     margin-right: 0px;
     float: right;
@@ -140,9 +127,6 @@ nav {
     background-image: url("../img/idaho/idaho5.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
-    @media only screen and (min-width: 320px) {
-      .three .last {
-        display: none; } }
 
 .bottom {
   width: 100%;
@@ -162,10 +146,6 @@ nav {
 .left {
   margin-right: 2px;
   padding: 0; }
-  @media only screen and (min-width: 320px) {
-    .left {
-      width: 100%;
-      height: 100px; } }
 
 .right {
   float: right;
@@ -174,8 +154,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom; }
-  @media only screen and (min-width: 320px) {
-    .right {
-      display: none; } }
+
+.textArea {
+  margin: 20px; }
 
 /*# sourceMappingURL=application.css.map */

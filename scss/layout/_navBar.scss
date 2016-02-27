@@ -16,10 +16,10 @@ nav {
   span {
     font-size: 40px;
   }
-  @media only screen and (min-width: 320px) {
-    @include margin(10px 10px 0px 10px);
-    span {
-      font-size: 20px;
-    }
-  }
+  // @media only screen and (max-width: 320px) {
+  //   @include margin(10px 10px 0px 10px);
+  //   span {
+  //     font-size: 20px;
+  //   }
+  // }
 }
