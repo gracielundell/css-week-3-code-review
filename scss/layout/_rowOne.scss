@@ -1,6 +1,9 @@
 .top {
   @include rowStyle(100%, 100px, 0px);
   @extend %imgHover;
+  @media only screen and (min-width: 760px) {
+    margin-top: 20px;
+  }
 }
 
 .col-md-4 {
@@ -14,19 +17,20 @@
   h1 {
     margin-top: 6px;
   }
-  // @media only screen and (max-width: 992px) {
-  //   @include columnStyle(25%, 100px);
-  // }
+  @media only screen and (min-width: 760px) {
+    @include columnStyle(25%, 200px);
+    display: inline-block;
+  }
 }
 
 .col-md-8 {
   display: none;
-  // @include columnStyle(74%, 298px);
-  // float: right;
-  // @include background-image(url("#{$path-img}/paintedHills/painted3.jpg"));
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // @media only screen and (max-width:992px) {
-  //   @include columnStyle(74%, 100px);
-  // }
+  @media only screen and (min-width:760px) {
+    display: inline;
+    @include columnStyle(74%, 200px);
+    float: right;
+    @include background-image(url("#{$path-img}/paintedHills/painted3.jpg"));
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

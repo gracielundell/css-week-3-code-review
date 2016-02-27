@@ -42,11 +42,31 @@ nav {
     margin-bottom: 5px;
     padding: 10px;
     color: #a3c5c8; }
+  @media only screen and (min-width: 760px) {
+    nav {
+      width: 100%;
+      height: 100px;
+      padding: 0px;
+      padding: 26px 50px 10px;
+      width: 95%;
+      margin: auto;
+      margin-top: 19px; }
+      nav span {
+        font-size: 30px;
+        display: inline; }
+      nav a {
+        font-size: 15px;
+        margin-bottom: 5px;
+        padding: 5px;
+        color: #a3c5c8; } }
 
 .top {
   width: 100%;
   height: 100px;
   padding: 0px; }
+  @media only screen and (min-width: 760px) {
+    .top {
+      margin-top: 20px; } }
 
 .col-md-4 {
   width: 100%;
@@ -59,9 +79,24 @@ nav {
   color: white; }
   .col-md-4 h1 {
     margin-top: 6px; }
+  @media only screen and (min-width: 760px) {
+    .col-md-4 {
+      width: 25%;
+      height: 200px;
+      display: inline-block; } }
 
 .col-md-8 {
   display: none; }
+  @media only screen and (min-width: 760px) {
+    .col-md-8 {
+      display: inline;
+      width: 74%;
+      height: 200px;
+      float: right;
+      background-image: url("../img/paintedHills/painted3.jpg");
+      background-image: url("../img/paintedHills/painted3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; } }
 
 .wide {
   width: 100%;
