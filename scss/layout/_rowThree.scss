@@ -4,7 +4,7 @@
     @include columnStyle(100%, 100px);
   }
   .col-md-4 {
-    @include columnStyle(32.6%, 318px);
+    @include columnStyle(100%, 100px);
     @include background-image(url("#{$path-img}/idaho/idaho4.jpg"));
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,27 +12,30 @@
     @extend %imgHover;
     @extend %links;
     // @media only screen and (min-width: 320px) {
-    //   @include columnStyle(100%, 100px);
+    //   @include columnStyle(32.6%, 318px);
+    //
     // }
   }
 
   .center {
-    width: 33.46%;
-    @include background-image(url("#{$path-img}/idaho/idaho9.jpg"));
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: none;
+
     // @media only screen and (min-width: 320px) {
-    //   display: none;
+    //   width: 33.46%;
+    // @include background-image(url("#{$path-img}/idaho/idaho9.jpg"));
+    // background-repeat: no-repeat;
+    // background-size: cover;
     // }
   }
   .last {
-    margin-right: 0px;
-    float: right;
-    @include background-image(url("#{$path-img}/idaho/idaho5.jpg"));
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: none;
+
     // @media only screen and (min-width: 320px) {
-    //   display: none;
+    // margin-right: 0px;
+    // float: right;
+    // @include background-image(url("#{$path-img}/idaho/idaho5.jpg"));
+    // background-repeat: no-repeat;
+    // background-size: cover;
     // }
   }
 }
