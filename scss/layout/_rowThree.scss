@@ -1,8 +1,6 @@
 .three {
   @include rowStyle(100%, 320px, 0px);
-  @media only screen and (min-width: 320px) {
-    @include columnStyle(100%, 100px);
-  }
+  @include columnStyle(100%, 100px);
   .col-md-4 {
     @include columnStyle(100%, 100px);
     @include background-image(url("#{$path-img}/idaho/idaho4.jpg"));
@@ -11,6 +9,9 @@
     display: block;
     @extend %imgHover;
     @extend %links;
+    @media only screen and (min-width: 700px) {
+      @include columnStyle(33.46%, 200px);
+    }
   }
   .first {
     padding-left: 0px;
@@ -21,16 +22,30 @@
 
   .center {
     display: none;
+    @media only screen and (min-width: 700px) {
+      @include columnStyle(33.46%, 200px);
+      @include background-image(url("#{$path-img}/idaho/idaho9.jpg"));
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline;
+      }
+    }
 
     // @media only screen and (min-width: 320px) {
     //   width: 33.46%;
-    // @include background-image(url("#{$path-img}/idaho/idaho9.jpg"));
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    //
     // }
-  }
   .last {
     display: none;
+    @media only screen and (min-width: 700px) {
+      @include columnStyle(31.5%, 200px);
+      margin-right: 0px;
+      float: right;
+      @include background-image(url("#{$path-img}/idaho/idaho5.jpg"));
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: inline;
+      }
 
     // @media only screen and (min-width: 320px) {
     // margin-right: 0px;
