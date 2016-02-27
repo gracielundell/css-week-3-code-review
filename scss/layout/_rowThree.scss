@@ -11,10 +11,12 @@
     display: block;
     @extend %imgHover;
     @extend %links;
-    // @media only screen and (min-width: 320px) {
-    //   @include columnStyle(32.6%, 318px);
-    //
-    // }
+  }
+  .first {
+    padding-left: 0px;
+    h1 {
+      @include margin(6px null null 6px);
+    }
   }
 
   .center {

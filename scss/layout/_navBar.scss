@@ -17,7 +17,7 @@ nav {
      padding: 10px;
      color: $links;
    }
-  @media only screen and (min-width: 760px) {
+  @media only screen and (min-width: 700px) {
     @include rowStyle(100%, 100px, 0px);
     @include padding(26px 50px 10px 50px);
     width: 95%;

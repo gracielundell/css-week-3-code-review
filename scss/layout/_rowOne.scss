@@ -1,7 +1,7 @@
 .top {
   @include rowStyle(100%, 100px, 0px);
   @extend %imgHover;
-  @media only screen and (min-width: 760px) {
+  @media only screen and (min-width: 700px) {
     margin-top: 20px;
   }
 }
@@ -15,9 +15,9 @@
   color: $white;
   @extend %links;
   h1 {
-    margin-top: 6px;
+    @include margin(6px null null 6px);
   }
-  @media only screen and (min-width: 760px) {
+  @media only screen and (min-width: 700px) {
     @include columnStyle(25%, 200px);
     display: inline-block;
   }
@@ -25,7 +25,7 @@
 
 .col-md-8 {
   display: none;
-  @media only screen and (min-width:760px) {
+  @media only screen and (min-width:700px) {
     display: inline;
     @include columnStyle(74%, 200px);
     float: right;
