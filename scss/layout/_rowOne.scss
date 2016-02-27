@@ -11,6 +11,12 @@
   background-size: cover;
   color: $white;
   @extend %links;
+  @media only screen and (min-width: 320px) {
+    @include columnStyle(100%, 100px);
+    h1 {
+      margin-top: 6px;
+    }
+  }
 }
 
 .col-md-8 {
@@ -19,4 +25,7 @@
   @include background-image(url("#{$path-img}/paintedHills/painted3.jpg"));
   background-repeat: no-repeat;
   background-size: cover;
+  @media only screen and (min-width: 320px) {
+    display: none;
+  }
 }
