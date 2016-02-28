@@ -3,9 +3,7 @@
   @include rowStyle(100%, 100px, 0px);
   @extend %links;
   @include background-image(url("#{$path-img}/california/cali5.jpg"));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include imgStyle(no-repeat, cover, center);
   color: $white;
   h1 {
     @include margin(6px null null 6px);

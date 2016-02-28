@@ -11,10 +11,9 @@
   @include columnStyle(100%, 100px);
   margin-right: 5px;
   @include background-image(url("#{$path-img}/paintedHills/painted1.jpg"));
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: $white;
+  @include imgStyle(no-repeat, cover);
   @extend %links;
+  color: $white;
   h1 {
     @include margin(6px null null 6px);
   }
@@ -31,7 +30,6 @@
     @include columnStyle(74%, 200px);
     float: right;
     @include background-image(url("#{$path-img}/paintedHills/painted3.jpg"));
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include imgStyle(no-repeat, cover);
   }
 }

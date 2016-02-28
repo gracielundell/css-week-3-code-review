@@ -1,6 +1,6 @@
-nav a, .col-md-4, .wide, .three .col-md-4 {
+nav a, .col-md-4, .wide, .three .col-md-4, .bottom, .comment span {
   text-decoration: none; }
-  nav a:hover, .col-md-4:hover, .wide:hover {
+  nav a:hover, .col-md-4:hover, .wide:hover, .bottom:hover, .comment span:hover {
     text-transform: uppercase;
     text-decoration: none;
     color: #87BBA2;
@@ -201,12 +201,36 @@ nav {
       background-image: url("../img/utah/utah1.png");
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
       background-position: bottom; } }
 
-.textArea {
-  margin: 20px; }
+.img {
+  display: none; }
+  @media only screen and (min-width: 700px) {
+    .img {
+      width: 100%;
+      height: 100px;
+      background-image: url("../img/comments.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; } }
+
+.textArea textarea {
+  width: 100%; }
 
 .btn {
-  display: block; }
+  display: block;
+  width: 100px; }
+  .btn:hover {
+    background-color: #ED6A5A;
+    color: white;
+    text-transform: uppercase; }
+
+.comment {
+  margin-top: 20px;
+  padding: 10px; }
+  .comment span {
+    color: #ED6A5A; }
 
 /*# sourceMappingURL=application.css.map */

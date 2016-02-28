@@ -1,14 +1,14 @@
 .bottom {
   @include rowStyle(100%, 200px, 0px);
   @extend %imgHover;
+  @extend %links;
 }
 
 .left {
   @include columnStyle(100%, 100px);
   @include background-image(url("#{$path-img}/utah/utah3.jpg"));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  @include imgStyle(no-repeat, cover, top);
+
   color: $white;
   @media only screen and (min-width: 700px) {
     @include columnStyle(49.5%, 198px);
@@ -28,6 +28,7 @@
     @include columnStyle(49.5%, 198px);
     float: right;
     @include background-image(url("#{$path-img}/utah/utah1.png"));
+    @include imgStyle(no-repeat, cover, bottom);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;

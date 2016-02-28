@@ -8,3 +8,9 @@
   width: $width;
   height: $height;
 }
+
+@mixin imgStyle($repeat, $size, $position:null) {
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $position;
+}
