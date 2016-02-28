@@ -6,8 +6,6 @@
   display: none;
   @media only screen and (min-width: 700px) {
     @include columnStyle(100%, 100px);
-    background-image: url("#{$path-img}/comments.jpg");
-    @include imgStyle(no-repeat, cover);
   }
 }
 
@@ -34,7 +32,4 @@
     color: #ED6A5A;
     @extend %links;
   }
-  // p {
-  //   margin-bottom: 0px;
-  // }
 }

@@ -8,29 +8,19 @@
   @include columnStyle(100%, 100px);
   @include background-image(url("#{$path-img}/utah/utah3.jpg"));
   @include imgStyle(no-repeat, cover, top);
-
   color: $white;
   @media only screen and (min-width: 700px) {
     @include columnStyle(49.5%, 198px);
   }
-  //  {
-  //
-  // margin-right: 2px;
-  // padding: 0;
-  // @extend %links;
-  // }
 }
 
 .right {
   display: none;
   @media only screen and (min-width: 700px) {
-    display: inline;
     @include columnStyle(49.5%, 198px);
-    float: right;
     @include background-image(url("#{$path-img}/utah/utah1.png"));
     @include imgStyle(no-repeat, cover, bottom);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    float: right;
+    display: inline;
   }
 }

@@ -9,11 +9,11 @@
 
 .col-md-4 {
   @include columnStyle(100%, 100px);
-  margin-right: 5px;
   @include background-image(url("#{$path-img}/paintedHills/painted1.jpg"));
   @include imgStyle(no-repeat, cover);
   @extend %links;
   color: $white;
+  margin-right: 5px;
   h1 {
     @include margin(6px null null 6px);
   }
@@ -26,10 +26,10 @@
 .col-md-8 {
   display: none;
   @media only screen and (min-width:700px) {
-    display: inline;
     @include columnStyle(74%, 200px);
-    float: right;
     @include background-image(url("#{$path-img}/paintedHills/painted3.jpg"));
     @include imgStyle(no-repeat, cover);
+    float: right;
+    display: inline;
   }
 }

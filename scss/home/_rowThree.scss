@@ -5,9 +5,9 @@
     @include columnStyle(100%, 100px);
     @include background-image(url("#{$path-img}/idaho/idaho4.jpg"));
     @include imgStyle(no-repeat, cover);
-    display: block;
     @extend %imgHover;
     @extend %links;
+    display: block;
     @media only screen and (min-width: 700px) {
       @include columnStyle(33.46%, 200px);
     }
@@ -36,11 +36,11 @@
     display: none;
     @media only screen and (min-width: 700px) {
       @include columnStyle(31.5%, 200px);
-      margin-right: 0px;
-      float: right;
       @include background-image(url("#{$path-img}/idaho/idaho5.jpg"));
       @include imgStyle(no-repeat, cover);
       display: inline;
+      margin-right: 0px;
+      float: right;
       }
   }
 }
