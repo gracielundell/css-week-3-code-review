@@ -10,7 +10,7 @@ This was an assignment that directed us to create a blog webpage that was respon
 This project is hosted using GitHub pages and my be viewed [here](http://gracielundell.com/epicodus-css-week-3-code-review/).
 
 ##Technologies
-HTML, CSS, Media Queries
+Sass, Bourbon, Media Queries
 
 ##Legal
 Copywrite Gracie Lundell &copy; 2016 This software is licensed under the GPL license.
