@@ -203,6 +203,9 @@ nav {
       float: right;
       display: inline; } }
 
+#comment {
+  display: none; }
+
 .img {
   display: none; }
   @media only screen and (min-width: 700px) {
@@ -222,8 +225,7 @@ nav {
     text-transform: uppercase; }
 
 .comment {
-  margin-top: 20px;
-  padding: 10px; }
+  margin-top: 20px; }
   .comment span {
     color: #ED6A5A; }
 
