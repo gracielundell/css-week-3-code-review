@@ -18,9 +18,9 @@ This was an assignment that directed us to create a blog webpage that was respon
 Clone this repository and open in your text editor of choice. Open the index.html in your browser. Alternatively, this project is hosted using GitHub pages and may be viewed [here](http://gracielundell.com/css-week-3-code-review/).
 
 ##Technologies
--Sass
--Bourbon
--Media Queries
+- Sass
+- Bourbon
+- Media Queries
 
 ##Legal
 Copywrite Gracie Lundell &copy; 2016 This software is licensed under the GPL license.
